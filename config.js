@@ -13,30 +13,45 @@ const CONFIG = {
             text: "¿Me amas?",
             yesBtn: "Sí 💗",
             noBtn: "No 😢",
-            secretAnswer: "Aunque esto sea chiquito, quiero que se quede en tu corazón. Gracias por siempre estar ahí para mí, incluso cuando no es fácil. Gracias por tu paciencia, por tu atención y por no soltarme cuando más lo necesito 💕💗"
+            secretAnswer: "Aunque esto sea chiquito, quiero que se quede en tu corazón 💕"
         },
+
         second: {
             text: "¿Cuánto amas?",
             startText: "Así de mucho… 💓",
-            nextBtn: "Siguiente pregunta 💖"
+            nextBtn: "Siguiente 💖"
         },
+
         third: {
-            text: "¿Tú quisieras ser mi San Valentín este 13 de Febrero? 🌹",
+            text: "¿Tú quisieras ser mi San Valentín este 13 de diciembre? 🌹",
             yesBtn: "Sí, quiero 💕",
-            noBtn: "No… pero lo pensare 😔"
+            noBtn: "No… pero piénsalo 😔"
+        },
+
+        fourth: {
+            text: "¿Quieres leer una pequeña carta?",
+            option1: "Sí, quiero leerla 💌",
+            option2: "¿Me la lees tú? 🎧",
+            option3: "Mejor nadota 😅"
         }
     },
 
     loveMessages: {
-        extreme: "Sí te amo, de verdad, con todo mi corazoncito 💕",
-        high: "Quiero enmendar mis errores y demostrarte que puedo hacerlo mejor 🌸🍃",
-        normal: "Quiero construir algo bonito, sano y disfrutar cada momento contigo 🩷🫶🏻"
+        normal: "¿¡Wooow, me amas tanto así!? 🥰💝",
+        high: "De aquí hasta la luna, a pasos de tortuga 🐢🌙💕",
+        extreme: "¡Hasta el infinito y más allá! 🚀💝"
     },
 
     celebration: {
         title: "Entonces… empecemos de nuevo juntos 💕🌸",
-        message: "Me encantaría tener otra oportunidad contigo, conocernos mejor, no saltarnos etapas y hacer las cosas bien. Quiero que seas tú a mi lado y que mañana podamos pasar el día juntos 💖",
+        message: "Quiero construir algo bonito contigo, paso a paso y haciendo las cosas bien 💖",
         emojis: "💕🩷🌸🌷🌹🌿💓💗♥️❣️🌱🧸"
+    },
+
+    extras: {
+        carta: "",  // ← AQUÍ pegarás tu carta después
+        llamadaTexto: "Entonces márcame… quiero escucharte 💖📞",
+        fotoUrl: "" // ← AQUÍ pondrás la URL de tu imagen
     },
 
     colors: {
